@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(42, 165, 79);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(1, 17, 248);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(250, 0, 0);
+}
+
+a:active {
+    color: rgb(66, 133, 40);
+}
+a::before {
+    content: '';
+}
+
+a::after { 
+    content: '';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(206, 206, 33);
+}
+li {
+    list-style: none;
+}
+
+/*  Seletores Personalizados
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = clildren
+*/

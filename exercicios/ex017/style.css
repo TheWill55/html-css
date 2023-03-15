@@ -1,0 +1,21 @@
+body {
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif
+
+    /* shorthand fort
+    - font-style -> font-weight ->  font-sinze ->       font-famaly 
+    font: italic       bolder            3em      'work Sans', sans-serif;
+    
+    Mdidas Absolutas
+    cm, mm, in, px, pt , pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+
+    font-weight: ;
+    --lighter - normal - bold - bolder--
+    */ 
+}
