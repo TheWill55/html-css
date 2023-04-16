@@ -9,6 +9,13 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+        
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         table {
             width: 500px;
@@ -21,6 +28,10 @@
         thead, tfoot {
             background-color: cadetblue;
             color: black;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
         .num {
             text-align:right;
@@ -40,10 +51,11 @@
                 TR, TD ,TH
     -->
     <table>
+        <caption>População das unidades federativa</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -62,7 +74,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de População</th>
+                <th scope="row">Total de População</th>
                 <td class="num"><strong>73 084</strong></td>
             </tr>
         </tfoot>
