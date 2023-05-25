@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exempro de Formulario</title>
+</head>
+<body>
+    <h1>Exempro de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas"><label for="imas">Masculino</label><br>
+            <input type="radio" name="sexo" id="ifem" checked><label for="ifem" >Feminino</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Games</legend>
+            <input type="checkbox" name="gow" id="igow"> <label for="igow">God of War</label><br>
+            <input type="checkbox" name="revil" id="irevil"> <label for="irevil">Resident Evil</label><br>
+            <input type="checkbox" name="sman" id="isman"> <label for="isman">Spider Man</label><br>
+            <input type="checkbox" name="wz2" id="iwz2"> <label for="iwz2">Warzone 2.0</label><br>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    
+</body>
+</html>
